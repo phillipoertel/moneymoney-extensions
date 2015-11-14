@@ -1,1 +1,1 @@
-This is a "Moneymoney":https://moneymoney-app.com extension which sums up the transactions that are currently displayed by category. Please see "Moneymoney's extensions page":https://moneymoney-app.com/extensions for how to install this extension, and maybe write one of your own.
+This is a [MoneyMoney](https://moneymoney-app.com) extension which sums up the transactions that are currently displayed by category. Please see [MoneyMoney's extensions page](https://moneymoney-app.com/extensions) for how to install this extension, and maybe write one of your own.
