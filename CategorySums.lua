@@ -1,17 +1,17 @@
-Exporter{version          = 1.00,
+Exporter{version          = 1.10,
          format           = "Category sums",
          fileExtension    = "csv",
          reverseOrder     = false,
          description      = "Export the transactions summed up by category"}
 
--- initialize global array to store category sums
-categorySums = {}
-
 function writeLine(line)
    assert(io.write(line, "\n"))
 end
 
+-- called once at the beginning of the export
 function WriteHeader (account, startDate, endDate, transactionCount)
+    -- initialize global array to store category sums
+    categorySums = {}
     _start = os.date('%b %d %Y', startDate)
     _end   = os.date('%b %d %Y', endDate)
     writeLine("Category sums from " .. _start .. " to " .. _end .. " (" .. transactionCount .. " transactions).")
